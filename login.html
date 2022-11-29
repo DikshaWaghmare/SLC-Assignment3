@@ -1,0 +1,55 @@
+<!-- create a login form (email, pwd, necessary information and style it) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./CSS/style.css" type="text/css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+</head>
+<body style="background-color:rgb(178, 231, 249)">
+    <div>
+    <header class="style-header">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <a href="login.html" type="_blank"><button id="login-btn">Login</button></a>
+            <i class="bi bi-code-square" id="style-logo1"></i>
+          </nav>
+    </header>
+    <form>
+        <div class="style-div">
+        <label for="fname">Enter First Name:</label>
+        <input type="text" name="fname" placeholder="Enter First Name" required/></br>
+
+        <label for="lname">Enter Last Name:</label>
+        <input type="text" name="lname" placeholder="Enter Last Name"/></br>
+
+        <label for="bday">Enter DOB:</label>
+        <input type="date" name="bday" placeholder="Enter Last Name"/></br>
+
+        <label for="email">Enter Email:</label>
+        <input type="email" name="email" placeholder="abc@gmail.com" required/></br>
+
+        <label for="pwd">Enter Password:</label>
+        <input type="password" name="pwd" required/></br>
+
+        <button id="submit-btn">Submit</button>
+        </div>
+    </form>
+    <main></main>
+    </div>
+    <footer class="style-footer">
+        <a href="instagram.com"><i class="bi bi-instagram style-logo2"></i></a>
+        <a href="facebook.com"><i class="bi bi-facebook style-logo2"></i></a>
+        <a href="call.com"><i class="bi bi-telephone style-logo2"></i></a>
+    </footer>
+</body>
+</html>
